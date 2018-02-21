@@ -1,7 +1,7 @@
 require "tramway/news/engine"
+require 'tramway/news/generators/install_generator'
 
 module Tramway
   module News
-    # Your code goes here...
   end
 end
