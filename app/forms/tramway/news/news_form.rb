@@ -4,8 +4,8 @@ class Tramway::News::NewsForm < ::Tramway::Core::ApplicationForm
   def initialize(object)
     form_object = super object
     form_properties title: :string,
-                    body: :text,
-                    photo: :file
+                    body: :ckeditor,
+                    hoto: :file
     form_object
   end
 end
