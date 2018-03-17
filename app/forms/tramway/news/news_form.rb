@@ -5,7 +5,7 @@ class Tramway::News::NewsForm < ::Tramway::Core::ApplicationForm
     form_object = super object
     form_properties title: :string,
                     body: :ckeditor,
-                    hoto: :file
+                    photo: :file
     form_object
   end
 end
